@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react';
+import {Routes,Route} from 'react-router-dom';
 
 const App = () => {
+  const HomePage=lazy(()=>import('../src/pages/home'));
+  const BookDetailPage=lazy(()=>import('../src/pages/bookDetail'));
   return (
-    <div>App</div>
+    <Suspense fallback={<>loading....</>}>
+    <Routes>
+      <Route path='/' Component={HomePage}/>
+      <Route path='/book/:id' Component={BookDetailPage}/>
+    </Routes>
+    </Suspense>
   )
 }
 
