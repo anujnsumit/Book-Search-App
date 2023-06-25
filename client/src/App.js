@@ -2,8 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import {Routes,Route} from 'react-router-dom';
 
 const App = () => {
-  const HomePage=lazy(()=>import('../src/pages/home'));
-  const BookDetailPage=lazy(()=>import('../src/pages/bookDetail'));
+  const HomePage=lazy(()=>import('../src/pages/bookListPage'));
+  const BookDetailPage=lazy(()=>import('../src/pages/bookDetailPage'));
   return (
     <Suspense fallback={<>loading....</>}>
     <Routes>

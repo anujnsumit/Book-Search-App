@@ -1,6 +1,6 @@
 import React from 'react'
  import {BookList} from '../features/index';
-const Home = () => {
+const BookListPage = () => {
   return (
     <>
     <BookList/>
@@ -8,4 +8,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default BookListPage;
