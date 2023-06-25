@@ -1,6 +1,5 @@
 
 
-export const API_PATH="/v1/api/Boooks";
-
+export const API_PATH="api/books";
 
 
