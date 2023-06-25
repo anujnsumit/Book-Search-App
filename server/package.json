@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "book search app with list and book details",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujnsumit/Book-Search-App.git"
+  },
+  "keywords": [
+    "book",
+    "search",
+    "book",
+    "list",
+    "book",
+    "detail"
+  ],
+  "author": "sumit singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujnsumit/Book-Search-App/issues"
+  },
+  "homepage": "https://github.com/anujnsumit/Book-Search-App#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
