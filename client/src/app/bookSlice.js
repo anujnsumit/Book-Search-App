@@ -9,7 +9,7 @@ export const getBookData=createAsyncThunk('book/getBooksList',async(args,{reject
      } catch (error) {
         rejectWithValue(error);
      }
-})
+}) 
 
 export const getBookDetails=createAsyncThunk('book/getBookDetails',async(id,{rejectWithValue})=>{
     try {

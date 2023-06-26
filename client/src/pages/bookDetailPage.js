@@ -1,9 +1,12 @@
-import React from 'react'
-import {BookDetail} from '../features/index';
+import React, { useEffect } from 'react'
+import { BookDetail } from '../features/index';
 
 const BookDetailPage = () => {
+
   return (
-    <><BookDetail/></>
+    <>
+      <BookDetail />
+    </>
   )
 }
 

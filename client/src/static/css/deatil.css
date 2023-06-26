@@ -1,0 +1,42 @@
+.backToHome {
+    cursor: pointer;
+    margin: 2rem;
+    margin-bottom: 6rem;
+}
+
+section {
+    width: 50%;
+    display: flex;
+}
+
+.image-part {
+    width: 50%;
+    height: 100%;
+    margin-right: 2rem;
+}
+
+.image-part img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details-part {
+    font-size: 1rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.details-part p{
+    margin-bottom: 2rem;
+}
+
+.tit {
+    font-weight: 600;
+}
+

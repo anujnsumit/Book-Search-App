@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react'
- import {BookList} from '../features/index';
+import { BookList } from '../features/index';
 import { getBookData } from '../app/bookSlice';
-import {useDispatch} from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 const BookListPage = () => {
-  const dispatch=useDispatch();
+  const dispatch = useDispatch();
 
-  useEffect(()=>{
+  useEffect(() => {
     dispatch(getBookData());
-  },[])
+  }, [])
 
   return (
     <>
-    <BookList/>
+      <BookList />
     </>
   )
 }
